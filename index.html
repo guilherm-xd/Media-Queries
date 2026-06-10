@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oscorp Industries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Rajdhani:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loadingoverlay">
+      <div class="contentloader">
+        <img src="img/atomo.gif" class="imgloader" />
+      </div>
+    </div>
+
+    <header id="inicio">
+      <nav class="navbar">
+        <div class="logo">Oscorp</div>
+        <div class="menulinks">
+          <a href="#inicio">Início</a>
+          <a href="#historia">História</a>
+          <a href="#modelos">Modelos</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#futuro">Futuro</a>
+        </div>
+      </nav>
+
+      <div class="bannercontainer">
+        <picture>
+          <source media="(max-width: 768px)" srcset="img/banner-mobile.png" />
+          <source media="(max-width: 1024px)" srcset="img/banner-tablet.png" />
+          <img src="img/banner-desktop.png" class="bannerimg" alt="Banner Oscorp" />
+        </picture>
+        <img src="img/dna.gif" class="dna" />
+
+        <div class="bannercontent">
+          <h1>OSCORP</h1>
+          <p>INOVAÇÃO • TECNOLOGIA • FUTURO</p>
+          <a href="#modelos" class="ctabtn">Acessar Arquivos</a>
+        </div>
+
+        <div class="statushud">
+          <span>SISTEMA: <span class="onlinestatus">OPERACIONAL</span></span>
+          <span>ACESSO: NÍVEL 5 [RESTRITO]</span>
+        </div>
+
+        <div class="scrollindicator">
+          <div class="mouse">
+            <div class="roda"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="modelos" class="sectiondivisions">
+      <div class="innercontainer">
+        <div class="sectionheader">
+          <span class="sectionlabel">CLASSIFICADO — NÍVEL 5</span>
+          <h2 class="sectiontitle">Divisões Ativas</h2>
+          <p class="sectionsubtitle">Projetos em operação nas instalações da Oscorp Industries</p>
+        </div>
+
+        <div class="divisionsgrid">
+          <div class="divisioncard destaque">
+            <div class="cardtop">
+              <span class="cardnum">01</span>
+              <span class="cardstatus ativo">ATIVO</span>
+            </div>
+            <h3>Projeto OZ-9</h3>
+            <p>Síntese genética de alto nível aplicada ao desenvolvimento de organismos resistentes a ambientes extremos.</p>
+            <a href="#" class="cardctabtn">Ver Relatório</a>
+          </div>
+
+          <div class="divisioncard">
+            <div class="cardtop">
+              <span class="cardnum">02</span>
+              <span class="cardstatus restrito">RESTRITO</span>
+            </div>
+            <h3>Robotics Division</h3>
+            <p>Exoesqueletos militares de nova geração com IA embarcada e reação autônoma a ameaças.</p>
+            <a href="#" class="cardctabtn">Ver Relatório</a>
+          </div>
+
+          <div class="divisioncard">
+            <div class="cardtop">
+              <span class="cardnum">03</span>
+              <span class="cardstatus progresso">EM PROGRESSO</span>
+            </div>
+            <h3>BioEnhancement</h3>
+            <p>Pesquisa em aprimoramento biológico humano com nanotecnologia médica e regeneração celular.</p>
+            <a href="#" class="cardctabtn">Ver Relatório</a>
+          </div>
+
+          <div class="divisioncard">
+            <div class="cardtop">
+              <span class="cardnum">04</span>
+              <span class="cardstatus restrito">CLASSIFICADO</span>
+            </div>
+            <h3>Formula V</h3>
+            <p>Síntese química avançada com aplicações militares e farmacêuticas de alto impacto.</p>
+            <a href="#" class="cardctabtn">Ver Relatório</a>
+          </div>
+
+          <div class="divisioncard">
+            <div class="cardtop">
+              <span class="cardnum">05</span>
+              <span class="cardstatus ativo">ATIVO</span>
+            </div>
+            <h3>Energy Core</h3>
+            <p>Geração de energia sustentável via fusão de plasma controlado em reatores de câmara fechada.</p>
+            <a href="#" class="cardctabtn">Ver Relatório</a>
+          </div>
+
+          <div class="divisioncard">
+            <div class="cardtop">
+              <span class="cardnum">06</span>
+              <span class="cardstatus progresso">FASE 3</span>
+            </div>
+            <h3>Shield Program</h3>
+            <p>Materiais compósitos ultrarresistentes desenvolvidos para aplicações em defesa e blindagem avançada.</p>
+            <a href="#" class="cardctabtn">Ver Relatório</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="sitefooter">
+      <div class="innercontainer footerinner">
+        <a href="#inicio">
+          <span class="logo">Oscorp</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
