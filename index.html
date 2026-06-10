@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oscorp Industries</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Rajdhani:wght@600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Rajdhani:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -20,7 +23,7 @@
         <div class="menulinks">
           <a href="#inicio">Início</a>
           <a href="#historia">História</a>
-          <a href="#modelos">Modelos</a>
+          <a href="#modelos">Divisões</a>
           <a href="#galeria">Galeria</a>
           <a href="#futuro">Futuro</a>
         </div>
@@ -30,13 +33,17 @@
         <picture>
           <source media="(max-width: 768px)" srcset="img/banner-mobile.png" />
           <source media="(max-width: 1024px)" srcset="img/banner-tablet.png" />
-          <img src="img/banner-desktop.png" class="bannerimg" alt="Banner Oscorp" />
+          <img
+            src="img/banner-desktop.png"
+            class="bannerimg"
+            alt="Banner Oscorp"
+          />
         </picture>
         <img src="img/dna.gif" class="dna" />
 
         <div class="bannercontent">
           <h1>OSCORP</h1>
-          <p>INOVAÇÃO • TECNOLOGIA • FUTURO</p>
+          <p>CIÊNCIA • PODER • EVOLUÇÃO</p>
           <a href="#modelos" class="ctabtn">Acessar Arquivos</a>
         </div>
 
@@ -53,22 +60,79 @@
       </div>
     </header>
 
+    <section id="historia" class="sectionhistoria">
+      <div class="innercontainer">
+        <div class="sectionheader">
+          <span class="sectionlabel">FUNDADA EM 1981</span>
+          <h2 class="sectiontitle">Nossa História</h2>
+          <p class="sectionsubtitle">
+            Décadas redefinindo os limites da ciência em benefício da humanidade
+          </p>
+        </div>
+        <div class="historiagrid">
+          <div class="historiacard">
+            <span class="historiaano">1981</span>
+            <h3>Início</h3>
+            <p>
+              Norman Osborn assume o controle total da empresa após expor seu
+              sócio Mendel Stromm por suposto desvio de fundos, tornando-se o
+              único dono da Oscorp Industries.
+            </p>
+          </div>
+          <div class="historiacard">
+            <span class="historiaano">1994</span>
+            <h3>Contratos Militares</h3>
+            <p>
+              A Oscorp firma os primeiros contratos com o Departamento de Defesa
+              dos EUA, fornecendo armamentos químicos, exoesqueletos de combate
+              e os primeiros protótipos dos Spider-Slayers.
+            </p>
+          </div>
+          <div class="historiacard">
+            <span class="historiaano">2003</span>
+            <h3>Pesquisa Genética</h3>
+            <p>
+              Lançamento do programa secreto de aprimoramento genético humano. O
+              Composto OZ é isolado pela primeira vez no laboratório de
+              bioengenharia da torre central.
+            </p>
+          </div>
+          <div class="historiacard">
+            <span class="historiaano">2019</span>
+            <h3>Era Goblin</h3>
+            <p>
+              Norman Osborn injeta em si mesmo uma versão instável do Soro
+              Goblin, desencadeando alterações físicas e neurológicas
+              irreversíveis que mudarão a história de Nova York.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="modelos" class="sectiondivisions">
       <div class="innercontainer">
         <div class="sectionheader">
-          <span class="sectionlabel">CLASSIFICADO — NÍVEL 5</span>
-          <h2 class="sectiontitle">Divisões Ativas</h2>
-          <p class="sectionsubtitle">Projetos em operação nas instalações da Oscorp Industries</p>
+          <span class="sectionlabel">CLASSIFICADO - NÍVEL 5</span>
+          <h2 class="sectiontitle">Áreas Ativas</h2>
+          <p class="sectionsubtitle">
+            Projetos em operação nas instalações da Oscorp Industries em Nova
+            York
+          </p>
         </div>
 
         <div class="divisionsgrid">
-          <div class="divisioncard destaque">
+          <div class="divisioncard">
             <div class="cardtop">
               <span class="cardnum">01</span>
               <span class="cardstatus ativo">ATIVO</span>
             </div>
-            <h3>Projeto OZ-9</h3>
-            <p>Síntese genética de alto nível aplicada ao desenvolvimento de organismos resistentes a ambientes extremos.</p>
+            <h3>Composto OZ</h3>
+            <p>
+              Fórmula mutagênica de origem desconhecida capaz de reescrever o
+              DNA humano. Responsável pela criação do espécime aracnídeo que
+              alteraria o destino de Peter Parker.
+            </p>
             <a href="#" class="cardctabtn">Ver Relatório</a>
           </div>
 
@@ -77,8 +141,12 @@
               <span class="cardnum">02</span>
               <span class="cardstatus restrito">RESTRITO</span>
             </div>
-            <h3>Robotics Division</h3>
-            <p>Exoesqueletos militares de nova geração com IA embarcada e reação autônoma a ameaças.</p>
+            <h3>Spider-Slayers</h3>
+            <p>
+              Robôs de combate autônomos desenvolvidos para rastrear e
+              neutralizar alvos com reflexos sobre-humanos. Projeto encomendado
+              originalmente pelo J. Jonah Jameson.
+            </p>
             <a href="#" class="cardctabtn">Ver Relatório</a>
           </div>
 
@@ -87,8 +155,12 @@
               <span class="cardnum">03</span>
               <span class="cardstatus progresso">EM PROGRESSO</span>
             </div>
-            <h3>BioEnhancement</h3>
-            <p>Pesquisa em aprimoramento biológico humano com nanotecnologia médica e regeneração celular.</p>
+            <h3>Soro Goblin</h3>
+            <p>
+              Composto químico baseado nos estudos de Stromm que concede força e
+              resistência sobre-humanas ao portador. Efeitos colaterais
+              psicológicos ainda não controlados.
+            </p>
             <a href="#" class="cardctabtn">Ver Relatório</a>
           </div>
 
@@ -97,8 +169,12 @@
               <span class="cardnum">04</span>
               <span class="cardstatus restrito">CLASSIFICADO</span>
             </div>
-            <h3>Formula V</h3>
-            <p>Síntese química avançada com aplicações militares e farmacêuticas de alto impacto.</p>
+            <h3>Duende Planador</h3>
+            <p>
+              Veículo aerodinâmico em forma de asa-delta com propulsão turbo e
+              sistema de armamento integrado. Protótipo criado para uso
+              exclusivo do Duende Verde.
+            </p>
             <a href="#" class="cardctabtn">Ver Relatório</a>
           </div>
 
@@ -107,8 +183,12 @@
               <span class="cardnum">05</span>
               <span class="cardstatus ativo">ATIVO</span>
             </div>
-            <h3>Energy Core</h3>
-            <p>Geração de energia sustentável via fusão de plasma controlado em reatores de câmara fechada.</p>
+            <h3>Abóboras Explosivas</h3>
+            <p>
+              Dispositivos de fragmentação nanotecnológica com carcaça
+              termocrômica desenvolvidos no laboratório de armamentos especiais.
+              Lote atual: 480 unidades operacionais.
+            </p>
             <a href="#" class="cardctabtn">Ver Relatório</a>
           </div>
 
@@ -117,9 +197,112 @@
               <span class="cardnum">06</span>
               <span class="cardstatus progresso">FASE 3</span>
             </div>
-            <h3>Shield Program</h3>
-            <p>Materiais compósitos ultrarresistentes desenvolvidos para aplicações em defesa e blindagem avançada.</p>
+            <h3>Exoesqueleto Abutre</h3>
+            <p>
+              Armadura de voo antigravitacional desenvolvida em parceria com
+              Adrian Toomes. Capacidade de altitude: 12.000 metros. Situação
+              contratual: em litígio.
+            </p>
             <a href="#" class="cardctabtn">Ver Relatório</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="sectiongaleria">
+      <div class="innercontainer">
+        <div class="sectionheader">
+          <h2 class="sectiontitle">Galeria</h2>
+          <p class="sectionsubtitle">
+            Registros das instalações e projetos em desenvolvimento
+          </p>
+        </div>
+        <div class="galeriagrid">
+          <div class="galeriacard">
+            <img src="img/galeria-1.png" alt="Torre Oscorp" />
+            <div class="galeriaoverlay">
+              <span>Torre Oscorp</span>
+            </div>
+          </div>
+          <div class="galeriacard">
+            <img src="img/galeria-2.jpg" alt="Laboratório de Pesquisa" />
+            <div class="galeriaoverlay">
+              <span>Laboratório de Pesquisa</span>
+            </div>
+          </div>
+          <div class="galeriacard">
+            <img src="img/galeria-3.jpg" alt="Linha de Produção" />
+            <div class="galeriaoverlay">
+              <span>Linha de Produção</span>
+            </div>
+          </div>
+          <div class="galeriacard">
+            <img src="img/galeria-4.jpg" alt="Sala de Controle" />
+            <div class="galeriaoverlay">
+              <span>Sala de Controle</span>
+            </div>
+          </div>
+          <div class="galeriacard">
+            <img src="img/galeria-5.jpg" alt="Câmara de Contenção" />
+            <div class="galeriaoverlay">
+              <span>Câmara de Contenção</span>
+            </div>
+          </div>
+          <div class="galeriacard">
+            <img src="img/galeria-6.jpg" alt="Centro de Dados" />
+            <div class="galeriaoverlay">
+              <span>Centro de Dados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="futuro" class="sectionfuturo">
+      <div class="innercontainer">
+        <div class="sectionheader">
+          <h2 class="sectiontitle">O Futuro</h2>
+          </p>
+        </div>
+        <div class="futurogrid">
+          <div class="futurocard">
+            <span class="futuronum">01</span>
+            <h3>Projeto Simbionte</h3>
+            <p>
+              Estudo de organismos alienígenas de origem desconhecida com
+              capacidade de fusão simbiótica com o hospedeiro humano. Amostras
+              coletadas por Norman Osborn durante missão classificada.
+            </p>
+            <div class="futurobarra">
+              <div class="futurobarraprogresso p78"></div>
+            </div>
+            <span class="futurostatus">78% CONCLUÍDO</span>
+          </div>
+          <div class="futurocard">
+            <span class="futuronum">02</span>
+            <h3>Clone Program</h3>
+            <p>
+              Tecnologia de replicação genética humana para criação de clones
+              funcionais com memórias implantadas. Baseado nos estudos do Dr.
+              Miles Warren - codinome: Chacal.
+            </p>
+            <div class="futurobarra">
+              <div class="futurobarraprogresso p45"></div>
+            </div>
+            <span class="futurostatus">45% CONCLUÍDO</span>
+          </div>
+          <div class="futurocard">
+            <span class="futuronum">03</span>
+            <h3>Exército Goblin</h3>
+            <p>
+              Distribuição em massa do Soro Goblin para criação de uma força
+              paramilitar com capacidades sobre-humanas sob controle direto de
+              Norman Osborn.
+            </p>
+            <div class="futurobarra">
+              <div class="futurobarraprogresso p32"></div>
+            </div>
+            <span class="futurostatus">32% CONCLUÍDO</span>
           </div>
         </div>
       </div>
