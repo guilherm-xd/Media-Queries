@@ -79,7 +79,7 @@ https://guilherm-xd.github.io/Media-Queries
 
 ### Áreas Ativas
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/86830227-767b-4e3c-be90-c7b8c1a08961" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/51eadce6-8bde-4146-a4e1-8a782f86db98" />
 
 ### Galeria
 
